@@ -250,6 +250,7 @@ footer nav a {
 }
 
 .main-strategy {
+    border-top: 1px dashed black;
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
@@ -259,7 +260,7 @@ footer nav a {
 .items {
     width: 48%;
     margin: 25px 1px;
-    padding: 5px 0;
+    padding: 25px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -272,12 +273,13 @@ footer nav a {
     padding-bottom: 10px;
 }
 
-.about {
-    padding: 20px;
-    border-bottom: 2px dashed black;
-    margin-bottom: 25px;
-    padding-bottom: 50px;
+.items h2 {
+    padding: 10px 0 5px;
+}
 
+.about {
+    margin: 0 1% 25px;
+    padding: 5px 1.5%;
 }
 
 .button {
@@ -290,7 +292,6 @@ footer nav a {
 }
 
 .work {
-    display: flex;
-    padding-bottom: 50px;
-    align-items: flex-start;
+    margin: 0 1% 25px;
+    padding: 5px 1.5%;
 }
